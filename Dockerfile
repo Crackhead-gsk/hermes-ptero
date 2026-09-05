@@ -1,3 +1,3 @@
 FROM nousresearch/hermes-agent:latest
 ENTRYPOINT []
-CMD ["/opt/hermes/.venv/bin/hermes"]
+CMD ["bash", "/home/container/start.sh"]
